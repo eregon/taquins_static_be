@@ -1,0 +1,428 @@
+#technique li { list-style-type: none; }
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+/*div {
+	margin: 0;
+	padding: 0;
+}*/
+
+a {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img { border-style: none; }
+
+p, a, li, label {
+	color: #FFFFFF;
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+}
+
+p, li {
+	margin: 5px;
+}
+
+li {
+	margin-left: 20px;
+}
+
+h1 {
+	color: white;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 32px;
+	/*background-repeat: no-repeat;*/
+
+	position: relative;
+	top: 10px;
+	left: 32px;
+	/*padding-left: 40px;*/
+
+} /* bg: 40*45 */
+
+h2 {
+	color: #ADC0CF;
+	font-family: Tahoma;
+	font-size: 11px;
+	margin-top: 1.5em;
+}
+
+h3 {
+	color: #ADC0CF;
+	font-family: Tahoma;
+	font-size: 11px;
+	margin-top: 1.2em;
+}
+
+input, select, textarea {
+	background-color: #4F6B80;
+	border: none;
+	color: #FFFFFF;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+/* h2.link */
+
+/*h2.link:before {
+	content: url(/images/arrow.png);
+}*/
+
+h2.link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6688AC;
+	position: absolute;
+	top: 115px;
+}
+
+h2.link a {
+	color: #6688AC;
+	text-decoration: underline;
+}
+
+div.content {
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+div.content p.page {
+	text-align: right;
+	padding-right: 50px;
+}
+
+/* LANGS */
+
+div#langs {
+	text-align: right;
+}
+
+div#locale-switcher a {
+	height: 14px;
+	width: 24px;
+	display: inline-block;
+	margin-left: 4px;
+	overflow: hidden;
+	color: transparent;
+}
+
+div#locale-switcher a.fr {
+	background-image: url(/images/flag_fr.jpg);
+}
+
+div#locale-switcher a.en {
+	background-image: url(/images/flag_en.jpg);
+}
+
+div#locale-switcher a.de {
+	background-image: url(/images/flag_de.jpg);
+}
+
+div#locale-switcher a.current {
+	display: none;
+}
+
+/* MENU */
+
+div#menu {
+	width: 848px;
+	background-image: url(/images/menu_bg.jpg);
+	background-repeat: no-repeat;
+	height: 150px;
+	display: table;
+}
+
+div#menu ul {
+	margin: 0px;
+	margin-left: 166px;
+	height: 150px;
+	list-style-type: none;
+}
+
+div#menu ul li {
+	margin: 0;
+	float: left;
+	width: 63px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 82px;
+  height: 68px;/*150-padding-top*/
+}
+
+div#menu ul li#news-link {
+  padding-top: 70px;
+  height: 80px;/*150-padding-top*/
+}
+
+div#menu ul li:hover {
+	background-image: url(/images/menu_over.png);
+	background-repeat: no-repeat;
+}
+div#menu ul li.noSpot:hover {
+	background: inherit;
+}
+
+div#menu ul li a {
+	color: #ADC0CF;
+	display: block;
+	height: 3em;
+	text-decoration: none;
+}
+
+div#menu ul li a:hover {
+	text-decoration: none;
+	color: #EEB72E;
+}
+
+/* MAIN */
+
+div.bg {
+	background-image: url(/images/main_bg.jpg);
+	background-color : #324a62;
+	background-repeat: no-repeat;
+	/*background-repeat: repeat-y;*/
+
+}
+
+div.main {
+	width: 785px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+/* index */
+
+div#index div.special_bg {
+	background-image: url(/images/bg_index.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+div#index h1 { float: left; }
+
+div#index div.content {
+	margin-top: 0;
+	margin-left: 416px;
+	margin-bottom: 0;
+}
+
+div#index p {
+	color: #ADC0CF;
+	margin: 2px;
+  margin-bottom: 1em;
+}
+
+div#index p#author {
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+}
+
+/* news */
+
+div#news p#date {
+	text-align: right;
+}
+
+div#news div.content {
+	padding: 10px;
+	padding-left: 40px;
+}
+
+div#news div.content h2.big {
+    font-size: 20px;
+}
+
+div#news div.content a.big {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+div#news div.content a.big:hover {
+    text-decoration: underline;
+}
+
+/* historique,biographie */
+
+div#historique div#biolink {
+	position: relative;
+	width: 0;
+	height: 0;
+}
+
+div#historique h2.link {
+	position: absolute;
+	left: 320px;
+	top: -103px;
+	height: 25px;
+	padding-left: 27px;
+	background-image: url(/images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: 0 -5px;
+} /* arrow.png:25*25 */
+
+div#historique div.content { margin-left: 25px; }
+
+div#historique p.pagenum {
+	padding-left: 180px;
+}
+
+div#biographie div.content {
+	margin-left: 75px;
+	width: 500px;
+}
+
+div#biographie div.content p {
+	margin-top: 10px;
+}
+
+/* presse */
+
+div#presse div.content { margin-left: 100px; }
+
+div#presse div.content p {
+	font-style: italic;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+div#presse div.content p.page { font-style: normal; }
+
+/* galerie */
+
+div#galerie div.content { margin-top: 25px; }
+
+div#galerie table {
+	margin: auto;
+}
+
+div#galerie td {
+	width: 182px;
+	text-align: center;
+	vertical-align: middle;
+} /* 180*120 (3/2) */
+
+div#galerie p#pictLinks { margin-left: 20px; }
+div#galerie p#pictLinks a {
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+div#galerie div#current_photo {
+	padding-top: 10px;
+	text-align: center;
+}
+
+div#galerie h2 {
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+/* agenda */
+
+div#agenda div.content {
+	margin-left: 50px;
+}
+
+/* mime */
+
+div#mime div.content { margin-left: 30px; }
+
+div#mime p {
+	margin: 0;
+}
+
+div#mime p.note {
+	color: #C1BDBD;
+	font-size: 10px;
+	margin-top: 15px;
+}
+
+/* technique */
+
+div#technique div.special_bg {
+	background-image: url(/images/bg_tech.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+div#technique div.content { margin-left: 380px; }
+
+div#technique div.content h2 {
+	color: #E0E7ED;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-variant: small-caps;
+}
+
+div#technique div.content p {
+	padding-left: 20px;
+	font-size: 13px;
+}
+
+/* video */
+
+div#video div.content {
+	/*height: 250px;*/
+}
+
+div#video div.content p {
+	/*float: left;*/
+	text-align: center;
+	font-size: 14px;
+}
+
+/* contact */
+
+div#contact div.content {
+	margin-top: 30px;
+	text-align: center;
+	width: 90%;
+}
+
+div#contact div.content p {
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+div#contact div.content p a {
+	font-size: 13px;
+}
+
+div#contact td { width: 50%; }
+
+div#contact div.content p.title {
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+
+/* FOOTER */
+
+div#footer  {
+	background-image:url(images/bottom.gif);
+	background-repeat:repeat-x;
+	color: gray;
+	height: 5px;
+}
