@@ -1,0 +1,1 @@
+# taquins_static_be
